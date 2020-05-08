@@ -1,0 +1,14 @@
+{
+  "name": "h2-server",
+  "scripts": {
+    "build": "pkg -t node12-linux index.js",
+    "prettier": "prettier --write './src/*.js'"
+  },
+  "dependencies": {
+    "bytes": "3.1.0",
+    "pkg": "4.4.8"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5"
+  }
+}
