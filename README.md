@@ -27,6 +27,7 @@ to see how are you doing.
 
 * **LOCALLY** within one Dell R940 with 4x Intel Xeon 8280M CPUs: ~9.6 Gbps
 
-* **LOCALLY** on Dell Latitude 9400 laptop with i7-8665U CPU: ~16.4-17.5 Gbps
+* **LOCALLY** on Dell Latitude 7400 laptop with i7-8665U CPU: ~16.4-17.5 Gbps
 
 * **LOCALLY** on DELL PowerEdge T40 9YP37 with Xeon E-2224G CPU: ~13.8 Gbps
+
