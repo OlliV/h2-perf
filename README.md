@@ -44,4 +44,3 @@ against `localhost` and averaged over a few runs.
 | Dell PowerEdge T40    | Dell PowerEdge T40 9YP37 with Intel Xeon E-2224G CPU @ 3.50GHz and 8 GB ECC RAM   |
 | Dell Latitude 7400    | Dell Latitude 7400 laptop with i7-8665U CPU                                       |
 | Dell Latitude 7490    | Dell Latitude 7490 laptop with Intel i7-8650U CPU @ 1.90GHz                       |
-
