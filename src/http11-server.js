@@ -11,6 +11,7 @@ module.exports = function server(port) {
     if (entry.name === "HttpRequest") {
       entry.speedGbps =
         (8 * (bytesRead / (entry.duration / 1000))) / 1000 / 1000 / 1000;
+      bytesRead = 0;
 
       console.log(entry);
     }
