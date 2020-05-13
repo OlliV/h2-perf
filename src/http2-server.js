@@ -6,9 +6,10 @@ const convBytes = require("bytes");
 function dummy() {}
 
 module.exports = function server(port) {
-  console.log("SERVER");
+  console.log("SERVER HTTP/2");
   const server = http2.createServer({
     settings: {
+      //initialWindowSize: 16777215,
       maxFrameSize: 16777215,
     },
   });

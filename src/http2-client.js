@@ -1,4 +1,3 @@
-const { PerformanceObserver } = require("perf_hooks");
 const http2 = require("http2");
 const { Readable } = require("stream");
 const convBytes = require("bytes");
@@ -23,15 +22,15 @@ function createRandomBuffer() {
 
 const modAl = (x, y) => x & (y - 1);
 
-module.exports = function client(port, strArg) {
+module.exports = function client(host, port, strArg) {
   const uaBytes = convBytes(strArg);
   const bytes =
     uaBytes + modAl(CHUNK_SIZE - modAl(uaBytes, CHUNK_SIZE), CHUNK_SIZE);
 
-  console.log(`CLIENT: Sending ${convBytes(bytes)} of random data`);
+  console.log(`CLIENT HTTP/2: Sending ${convBytes(bytes)} of random data`);
 
   const data = createRandomBuffer();
-  const client = http2.connect(`http://127.0.0.1:${port}`);
+  const client = http2.connect(`http://${host}:${port}`);
   client.on("error", (err) => console.error(err));
 
   const req = client.request(
