@@ -32,7 +32,7 @@ against `localhost` and averaged over a few runs.
 | 2x Dell R940 *Remote* | 9 Gbps    | 2 Gbps        |
 | Dell R940             | 14.6 Gbps | 9.6 Gbps      |
 | Dell PowerEdge T40    | 18.8 Gbps | 13.8 Gbps     |
-| Dell Latitude 7400    |           | 16.95 Gbps    |
+| Dell Latitude 7400    | 20.9 Gbps | 16.95 Gbps    |
 | Dell Latitude 7490    | 19.7 Gbps | 12.6 Gbps     |
 
 **Machine details**
@@ -44,3 +44,4 @@ against `localhost` and averaged over a few runs.
 | Dell PowerEdge T40    | Dell PowerEdge T40 9YP37 with Intel Xeon E-2224G CPU @ 3.50GHz and 8 GB ECC RAM   |
 | Dell Latitude 7400    | Dell Latitude 7400 laptop with i7-8665U CPU                                       |
 | Dell Latitude 7490    | Dell Latitude 7490 laptop with Intel i7-8650U CPU @ 1.90GHz                       |
+
