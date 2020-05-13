@@ -25,6 +25,8 @@ As it might be hard to read the results without any context, here's couple
 to see how are you doing. Unless marked as *Remote* the test were executed
 against `localhost` and averaged over a few runs.
 
+**Test results**
+
 | Mach                  | HTTP/1.1  | HTTP/2        |
 |-----------------------|-----------|---------------|
 | 2x Dell R940 *Remote* | 9 Gbps    | 2 Gbps        |
@@ -33,9 +35,9 @@ against `localhost` and averaged over a few runs.
 | Dell Latitude 7400    |           | 16.95 Gbps    |
 | Dell Latitude 7490    | 19.7 Gbps | 12.6 Gbps     |
 
-**Machine details:**
+**Machine details**
 
-| Mach |                | Description                                                                       |
+| Mach                  | Description                                                                       |
 |-----------------------|-----------------------------------------------------------------------------------|
 | 2x Dell R940 *Remote* | Between two Dell R940 with 4x Intel Xeon 8268 CPUs and 4x Intel Xeon 8268M CPUs   |
 | Dell R940             | Within one Dell R940 with 4x Intel Xeon 8280M CPUs                                |
